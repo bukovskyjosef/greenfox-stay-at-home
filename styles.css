@@ -1,0 +1,36 @@
+body {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav {
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    position: fixed;
+    width: 900px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #229954;
+    color: white;
+  }
+  
+  .menu-item {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 25px;
+    color: white;
+  }
+  
+  .page-content{
+    font-family: "Josefin Sans", sans-serif;
+    width: 800px;
+    margin-top: 100px;
+  }
+  
+  #notable-achievements {
+   text-transform: uppercase; 
+  }
