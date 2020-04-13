@@ -1,0 +1,21 @@
+.wrapper {
+    width: 70%;
+    margin: auto;
+    background-color: gray;
+    top: 0px;
+    position: relative;
+    /* tímto se deklaruje, že podřízené elementy se budou 
+    v případě pozicován relativizovat vůči tomuto 
+    elementu https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_Block */
+}
+
+.sekce {
+    margin-left: 250px;
+}
+
+img {
+    height: 80px;
+    float: left;
+    position: absolute;
+    left: 50px;
+}

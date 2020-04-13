@@ -28,3 +28,13 @@ function mouseOut() {
         document.getElementById("nav-bar").style.top = "-50px";
     }
 }
+
+let greeter=name => {
+    console.log(`Hello, ${name}`);
+    if (name === "Adam") {
+        console.log("Je to on");
+    }
+}
+greeter("Adam");
+greeter("Lucka");
+greeter("Artuš");

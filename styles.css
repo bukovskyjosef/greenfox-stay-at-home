@@ -34,3 +34,21 @@ body {
   #notable-achievements {
    text-transform: uppercase; 
   }
+
+  .first-level-li {
+    margin-left: 2em;
+    list-style-type: circle;
+  }
+
+  .second-level-li {
+    margin-left: 4em;
+  }
+
+  .unstyled-li {
+    list-style-type: none;
+    margin-left: 0px;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
