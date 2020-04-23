@@ -28,7 +28,7 @@ body {
   .page-content{
     font-family: "Josefin Sans", sans-serif;
     width: 800px;
-    margin-top: 100px;
+    margin-top: 70px;
   }
   
   #notable-achievements {
@@ -38,17 +38,29 @@ body {
   .first-level-li {
     margin-left: 2em;
     list-style-type: circle;
+    color: limegreen;
+    margin-top: 2px;
   }
 
   .second-level-li {
     margin-left: 4em;
+    line-height: 1.5em;
+    
   }
 
   .unstyled-li {
     list-style-type: none;
     margin-left: 0px;
+    font-size: 20px;
+    margin: 5px 0px 5px 0px;
+    color: green;
   }
 
-  ul {
-    padding-inline-start: 0px;
+  a,
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: gray;
   }
