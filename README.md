@@ -1,2 +1,1 @@
-# Smoulluv Javasrcipt
- Můj soukromý intro JS project
+# Greenfox Stay at home portfolio
